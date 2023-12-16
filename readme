@@ -1,0 +1,50 @@
+
+# Tic Tac Toe Game
+
+## Overview
+
+This project is a simple, interactive Tic Tac Toe game developed using HTML, CSS, JavaScript, and jQuery. It features a user-friendly interface and is styled with Bootstrap and custom CSS. The game allows two players to play Tic Tac Toe with fun symbols and displays custom alerts for game results.
+
+## Features
+
+- Interactive Tic Tac Toe board.
+- Custom symbols for players (Black Heart for 'X', Circle for 'O').
+- Responsive design using Bootstrap.
+- Custom alerts for winning, losing, or tie scenarios.
+- Dynamic resizing and styling with CSS and Bootstrap.
+- Google Fonts integration for stylish typography.
+
+## Setup
+
+To set up the Tic Tac Toe game, follow these steps:
+
+1. Clone the repository or download the source code.
+2. Ensure you have a modern web browser installed (e.g., Chrome, Firefox).
+3. Open the `index.html` file in your browser to start the game.
+
+## File Structure
+
+- `index.html`: The main HTML file containing the structure of the Tic Tac Toe game.
+- `style.css`: The CSS file for custom styling of the game.
+- `main.js`: The JavaScript file containing the logic for the Tic Tac Toe game.
+- `bootstrap.min.css`: Bootstrap file for responsive design (loaded from CDN).
+
+## How to Play
+
+- The game board consists of a 3x3 grid.
+- Players take turns to mark a space on the grid with their respective symbols.
+- The first player to align their three symbols vertically, horizontally, or diagonally wins.
+- If all nine squares are filled without a winner, the game is a tie.
+
+## Technical Details
+
+- Utilizes jQuery for DOM manipulation and event handling.
+- Makes use of Bootstrap for responsive design and layout.
+- Implements CSS animations for interactive UI elements.
+- The game logic is implemented in JavaScript, demonstrating the use of arrays and control structures.
+
+## Customization
+
+- Custom fonts from Google Fonts can be changed in the HTML file.
+- The CSS file `style.css` can be modified for custom styles and themes.
+- JavaScript file `main.js` can be edited to alter the game's behavior or add new features.
