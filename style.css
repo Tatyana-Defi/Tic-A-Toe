@@ -1,0 +1,88 @@
+html, body {
+    height: 100%;
+    margin: 50px;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Stack flex items vertically */
+    align-items: center; /* Center-align horizontally */
+    justify-content: flex-start; /* Align to the top */
+    background-image: url("pbsmilesbig.png");
+    background-repeat: no-repeat; /* This will stop the image from repeating */
+    background-size: cover; /* This will cover the entire area of the page */
+    background-attachment: fixed; 
+    background-color:transparent;
+}
+
+  
+  h1 {
+    font-family: 'Agbalumo', serif; /* font from google api link*/
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    color: rgb(163, 221, 255);
+    text-shadow:
+        3px 3px 0 #000000,
+        -1px -1px 0 #000000,  
+        1px -1px 0 #000000,
+        -1px 1px 0 #000000,
+        1px 1px 0 #000000;
+    font-size: 60px !important; /* Forces the font size */
+}
+
+  h1:hover {
+    transform: scale(1.30);
+  }
+  
+  table {
+    border-collapse: collapse;
+    margin: auto; 
+    margin-top: 20%;
+
+  }
+  
+  td {
+    border: 6px solid #540cb7;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+.img{
+margin: auto;
+}
+h1 {
+    position: relative;
+    display: inline-block;
+}
+
+h1:hover::after {
+    content: "✨";
+    position: fixed;
+    animation: sparkle 1s ease-in-out infinite;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes sparkle {
+    0%, 100% {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(0);
+    }
+    50% {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+    }
+}
+#customAlert {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color:rgb(47, 162, 228);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  z-index: 1000;
+}
